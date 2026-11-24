@@ -38,13 +38,6 @@ for thread in threads:
         label=f"{thread} Threads"
     )
 
-# Reference line: Speedup = 1
-plt.axhline(
-    y=1,
-    linestyle="--",
-    label="Sequential Performance"
-)
-
 # Chart title and labels
 plt.title("Plot 2: Matrix Size vs Speedup")
 plt.xlabel("Matrix Size")

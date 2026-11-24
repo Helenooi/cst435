@@ -39,9 +39,9 @@ for thread in threads:
     )
 
 # Chart title and labels
-plt.title("Plot 3: Matrix Size vs Parallel Efficiency")
+plt.title("Plot 3: Matrix Size vs Efficiency")
 plt.xlabel("Matrix Size")
-plt.ylabel("Parallel Efficiency (%)")
+plt.ylabel("Efficiency (%)")
 
 plt.xticks([50, 100, 200, 500])
 
