@@ -39,7 +39,7 @@ for thread in threads:
     )
 
 # Chart title and labels
-plt.title("Plot 3: Matrix Size vs Efficiency")
+plt.title("Matrix Size vs Efficiency")
 plt.xlabel("Matrix Size")
 plt.ylabel("Efficiency (%)")
 
@@ -51,7 +51,7 @@ plt.legend()
 plt.tight_layout()
 
 # Save chart
-plt.savefig("plot3_efficiency.png", dpi=300)
+plt.savefig("plot_efficiency.png", dpi=300)
 
 # Display chart
 plt.show()

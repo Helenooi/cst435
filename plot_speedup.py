@@ -39,7 +39,7 @@ for thread in threads:
     )
 
 # Chart title and labels
-plt.title("Plot 2: Matrix Size vs Speedup")
+plt.title("Matrix Size vs Speedup")
 plt.xlabel("Matrix Size")
 plt.ylabel("Speedup (x)")
 
@@ -51,7 +51,7 @@ plt.legend()
 plt.tight_layout()
 
 # Save chart
-plt.savefig("plot2_speedup.png", dpi=300)
+plt.savefig("plot_speedup.png", dpi=300)
 
 # Display chart
 plt.show()
