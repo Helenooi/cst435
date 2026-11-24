@@ -27,8 +27,8 @@ def sequential_matrix_multiplication(A, B):
 if __name__ == "__main__":
 
     # Read matrices from CSV files
-    A = np.loadtxt("matrix_A.csv", delimiter=",", dtype=int).tolist()
-    B = np.loadtxt("matrix_B.csv", delimiter=",", dtype=int).tolist()
+    A = np.loadtxt("matrix_A_500.csv", delimiter=",", dtype=int).tolist()
+    B = np.loadtxt("matrix_B_500.csv", delimiter=",", dtype=int).tolist()
 
     # Check whether matrix dimensions are compatible
     if len(A[0]) != len(B):

@@ -66,8 +66,8 @@ if __name__ == "__main__":
         raise ValueError("Number of threads must be at least 1!")
 
     # Read matrices from CSV files
-    A = np.loadtxt("matrix_A.csv", delimiter=",", dtype=int).tolist()
-    B = np.loadtxt("matrix_B.csv", delimiter=",", dtype=int).tolist()
+    A = np.loadtxt("matrix_A_500.csv", delimiter=",", dtype=int).tolist()
+    B = np.loadtxt("matrix_B_500.csv", delimiter=",", dtype=int).tolist()
 
     # Check whether matrix dimensions are compatible
     if len(A[0]) != len(B):
